@@ -80,6 +80,7 @@ button.sign_up_btn:active { background-color: #de4b00; }
     background-image: url(../images/portfolio_set.png);
     display: inline-block;
 }
+.wrapt li:nth-child(1) { background-image: url(../images/1.png); }
 .wrapt li:nth-child(2) { background-image: url(../images/2.png); }
 .wrapt li:nth-child(3) { background-image: url(../images/3.png); }
 .wrapt li:nth-child(4) { background-image: url(../images/4.png); }
@@ -187,6 +188,7 @@ button.sign_up_btn:active { background-color: #de4b00; }
        -moz-border-radius: 20px;
             border-radius: 20px;
 }
+/*Футер*/
 .main_footer {
     background-color: #211f20;
     height: 113px;
@@ -225,3 +227,37 @@ button.sign_up_btn:active { background-color: #de4b00; }
     line-height: 18px;
     font-size: 25px;
 }
+/*Поп-ап окно*/
+.hidden { display: none; }
+.pop_form input[type="text"] {
+    display: block;
+    line-height: 43px;
+    margin: 0 auto 14px;
+    width: 300px;
+    border: #999 1px solid;
+    padding-left: 15px;
+}
+.pop_form .button {
+    margin: 19px auto 0;
+    line-height: 33px;
+    padding: 0 24px;
+}
+.pop_form h3 {
+    margin: 10px auto 15px;
+    text-align: center;
+    font-family: 'OpenSans-Regular', sans-serif;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
