@@ -166,3 +166,24 @@ button.sign_up_btn:active { background-color: #de4b00; }
     color: #fff;
     background: #ff6c14;
 }
+/*Ссылка на скачавание*/
+.download_link {
+    margin-top: 67px;
+    background-color: #ff6c14;
+    text-align: center;
+    font-family: 'OpenSans-Regular', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    padding: 36px 0;
+    height: 113px;
+}
+.download_link a { color: #fff; }
+.download_link span { color: #ffc4a1; }
+.fa-long-arrow-right {
+    padding: 8px;
+    border: 2px solid #fff;
+    margin-left: 15px;
+    -webkit-border-radius: 20px;
+       -moz-border-radius: 20px;
+            border-radius: 20px;
+}
