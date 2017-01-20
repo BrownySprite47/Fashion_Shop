@@ -1,0 +1,21 @@
+/* font-family: "NexaRustScriptL-0"; */
+@font-face {
+    font-family: "NexaRustScriptL-0";
+    src: url("../fonts/NexaRustScriptL-0.otf");
+}
+/* font-family: 'OpenSans-Regular', sans-serif; */
+@font-face {
+    font-family:"OpenSans-Regular";
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+/* font-family: 'OpenSans', sans-serif; */
+@font-face {
+    font-family:"OpenSans";
+    src: url("../fonts/OpenSans.ttf");
+}
+/* font-family: 'OpenSans-Light', sans-serif; */
+@font-face {
+    font-family:"OpenSans-Light";
+    src: url("../fonts/OpenSans-Light.ttf");
+}
+
