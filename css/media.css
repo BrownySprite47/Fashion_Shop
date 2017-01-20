@@ -17,6 +17,7 @@
         margin: 37px 0 30px 0;
     }
     .header_main h3 { font-size: 23px; }
+    button.sign_up_btn { max-width: 300px; }
 }
 
 /* Extra Small Devices, Phones */

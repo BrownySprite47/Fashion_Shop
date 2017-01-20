@@ -31,3 +31,35 @@ a:hover { text-decoration: none; }
     font-size: 27px;
     font-family: 'OpenSans', sans-serif;
 }
+/*Кнопка зарегистрироваться*/
+button.sign_up_btn {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 21px;
+    padding: 10px 0;
+    background-color: #ff6c14;
+    border: none;
+    width: 352px;
+    margin: 0 auto;
+    display: block;
+    margin-top: -28px;
+    -webkit-transition: background-color .20s;
+       -moz-transition: background-color .20s;
+         -o-transition: background-color .20s;
+            transition: background-color .20s;
+    -webkit-border-radius: 29px;
+       -moz-border-radius: 29px;
+            border-radius: 29px;
+    -webkit-box-shadow: 0 0 0 10px rgba(0,0,0,.12);
+       -moz-box-shadow: 0 0 0 10px rgba(0,0,0,.12);
+            box-shadow: 0 0 0 10px rgba(0,0,0,.12);
+}
+button.sign_up_btn a {
+    color: #fff;
+    line-height: 37px;
+}
+button.sign_up_btn:hover { background-color: #fe8136; }
+button.sign_up_btn:active { background-color: #de4b00; }
+.header_sign_up, .item_blocks {
+    width: 100%;
+    margin: 0 auto;
+}
