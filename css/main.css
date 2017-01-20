@@ -187,3 +187,41 @@ button.sign_up_btn:active { background-color: #de4b00; }
        -moz-border-radius: 20px;
             border-radius: 20px;
 }
+.main_footer {
+    background-color: #211f20;
+    height: 113px;
+}
+.main_footer a {
+    color: #898989;
+    -webkit-transition: color .5s;
+       -moz-transition: color .5s;
+         -o-transition: color .5s;
+            transition: color .5s;
+}
+.main_footer a:hover { color: #ff6c14; }
+.footer_links { text-align: center; }
+.footer_links li {
+    padding: 0 10px 0 10px;
+    display: inline-block;
+}
+.social_btns { text-align: center; }
+.social_btns li {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #898989;
+    margin: 0 14px 0 14px;
+    display: inline-block;
+    -webkit-border-radius: 20px;
+       -moz-border-radius: 20px;
+            border-radius: 20px;
+    -webkit-transition: border .5s;
+       -moz-transition: border .5s;
+         -o-transition: border .5s;
+            transition: border .5s;
+}
+.social_btns li:hover { border: 1px solid #ff6c14; }
+.social_btns .fa {
+    padding: 9px;
+    line-height: 18px;
+    font-size: 25px;
+}
