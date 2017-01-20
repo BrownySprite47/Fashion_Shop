@@ -12,7 +12,11 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+    .header_main h1 {
+        font-size: 50px;
+        margin: 37px 0 30px 0;
+    }
+    .header_main h3 { font-size: 23px; }
 }
 
 /* Extra Small Devices, Phones */

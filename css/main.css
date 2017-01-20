@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li { list-style-type: none; }
+a:hover { text-decoration: none; }
+/*Хедер и главный заголовок*/
+.header_main {
+    background: url(../images/header.png) no-repeat 50% 50%;
+    height: 451px;
+    margin: 0 auto;
+    max-width: 1440px;
+    border-bottom: 2px solid #ff6c14;
+    text-align: center;
+    color: #fff;
+}
+.logo {
+    font-size: 47px;
+    padding: 43px 20px;
+    font-family: "NexaRustScriptL-0";
+}
+.logo a { color: #fff; }
+.header_main h1 {
+    font-size: 56px;
+    font-family: 'OpenSans-Regular', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 39px 0 30px 0;
+}
+.header_main h3 {
+    font-size: 27px;
+    font-family: 'OpenSans', sans-serif;
+}
